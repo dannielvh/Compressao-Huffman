@@ -124,7 +124,7 @@ def write_output(out_path, results):
                 f.write(f"{repr(tok)}: {fr}\n")
             f.write("\n")
 
-            f.write("Árvore (JSON):\n")
+            f.write("Árvore:\n")
             f.write(json.dumps(r["tree"], ensure_ascii=False, indent=2) + "\n\n")
 
             f.write("Códigos:\n")
@@ -172,3 +172,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
