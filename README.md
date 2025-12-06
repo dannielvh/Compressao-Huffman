@@ -6,8 +6,17 @@ Ao final do programa ele gera então um arquivo de saída com as árvores gerada
 
 ### Instruções
 
+Seguindo essas instruções será possível executar o programa:
+
 ```bash
 git clone https://github.com/dannielvh/Compressao-Huffman.git
+cd Compressao-Huffman
+
+# WINDOWS
+python src/Huffman.py
+
+#LINUX
+python3 src/Huffman.py
 ```
 
 Para plena funcionalidade do código o arquivo **input.dat** deve estar dentro da pasta **data**, e assim fica livre para o usuário modificar as frases. Cada bloco de texto deve estar separado por uma linha em branco.
